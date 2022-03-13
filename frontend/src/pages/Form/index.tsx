@@ -1,4 +1,4 @@
-import FormCard from "components/formCard";
+import FormCard from "components/FormCard";
 import { useParams } from "react-router-dom";
 
 function Form() {
@@ -6,7 +6,7 @@ function Form() {
     const params = useParams();
 
     return (
-        <FormCard movieId={`${params.moveId}`}/>
+        <FormCard movieId={`${params.movieId}`}/>
     );
 }
 
