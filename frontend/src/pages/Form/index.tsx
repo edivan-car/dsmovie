@@ -1,4 +1,4 @@
-import FormCard from 'components/FormCard';
+import FormCard from 'components/formCard';
 import { useParams } from "react-router-dom";
 
 function Form() {
